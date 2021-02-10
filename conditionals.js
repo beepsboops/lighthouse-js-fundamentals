@@ -1,29 +1,5 @@
-const temperature = 12;
-
-if (temperature < 0) {
-  console.log("Make sure you pick out a scarf!");
-} else if (temperature < 15) {
-  console.log("Short sleeves won't cut it!");
-} else {
-  console.log("Short sleeves are fine.");
-}
-
-console.log("Now you're ready to go outside!");
-
-const isCitizen = true;
-const age = 26;
-
-if (isCitizen && age > 18) {
-  console.log("You are eligible to vote.");
-}
-
-const isCitizen = true;
-const age = 26;
-
-if (isCitizen && age > 18) {
-  console.log("You are eligible to vote.");
-}
-
-if (!raining) {
-  console.log("Leave your umbrella at home!");
+for (var x = 0; x < 5; x = x + 1) {
+  for (var y = 0; y < 3; y = y + 1) {
+    console.log(x + "," + y);
+  }
 }
